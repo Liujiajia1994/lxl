@@ -149,6 +149,10 @@
 </template>
 
 <script>
+import {
+ login,
+ pddGoods
+} from "@/api/api.js";
 export default {
     name: 'goods',
     data () {
@@ -156,7 +160,23 @@ export default {
 
         }
     },
+    created() {
+       
+    //  login().then(data=>{
+    //     console.log(data)
+    //  })
+     //subject_id=5571&page=1&size=10
+     pddGoods({data:{
+         subject_id:5571,
+         page:1,
+         size:10
+     }}).then(data=>{
+        console.log(data)
+     })
+
+    },
 }
+
 </script>
 <style scoped>
     .firstStyle{
@@ -191,7 +211,7 @@ export default {
     }
     .firstStyle .content{
         /* width: 100%; */
-        margin-left: 1.333rem;
+        margin-left: 1.6rem;
     }
     .firstStyle .banner div{
         position: absolute;
