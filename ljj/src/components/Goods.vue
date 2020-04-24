@@ -190,8 +190,8 @@ export default {
         height: 100%;
     }
     .firstStyle .content{
-        width: 100%;
-        margin-left: 1.6rem;
+        /* width: 100%; */
+        margin-left: 1.333rem;
     }
     .firstStyle .banner div{
         position: absolute;
@@ -231,7 +231,6 @@ export default {
     .firstStyle .footer{
         display: flex;
         align-items: center;
-        margin-left: 0.333rem;
         margin-left: 1.333rem;
         list-style: none;      
     }
@@ -344,7 +343,7 @@ export default {
     .secondStyle .footer{
         position: absolute;
         bottom: 0;
-        width: 100%;
+        /* width: 100%; */
         margin-left: 0.3rem;
     }
     .secondStyle .tips{
