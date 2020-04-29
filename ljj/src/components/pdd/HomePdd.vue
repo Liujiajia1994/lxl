@@ -65,7 +65,6 @@
     </div>
 </template>
 <script>
-import home from "../../assets/css/home.css";
 import HeaderPdd from "../pdd/HeaderPdd";
 import FooterPdd from "../pdd/FooterPdd";
 import {
@@ -145,6 +144,7 @@ export default {
 }
 </script>
 <style scoped>
+    @import "../../assets/css/home.css";
     .container{
         margin-top: -60px;
         background-color: #f3f3f3;

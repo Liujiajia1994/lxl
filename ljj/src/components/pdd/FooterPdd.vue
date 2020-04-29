@@ -15,3 +15,23 @@ export default {
     },
 }
 </script>
+<style scoped>
+    .footer{
+        margin-top: 40px;
+        padding: 40px 40px 0;
+        background-color: white;
+    }
+    .footer span{
+        display: block;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 24px;
+        color: #7a7a7a
+    }
+    .divider{
+        height: .13px;
+        border-top: 1px solid #d6d6d6;
+        transform: scaleY(.5);
+    }
+</style>
