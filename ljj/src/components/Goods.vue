@@ -149,11 +149,10 @@
 </template>
 
 <script>
-import {
- login,
- pddGoods
-} from "@/api/api.js";
-import goodsStyle from '@/assets/css/goodsStyle.css'
+// import {
+//  login,
+//  pddGoods
+// } from "@/api/api.js";
 export default {
     name: 'goods',
     data () {
@@ -167,18 +166,18 @@ export default {
     //     console.log(data)
     //  })
      //subject_id=5571&page=1&size=10
-     pddGoods({data:{
-         subject_id:5571,
-         page:1,
-         size:10
-     }}).then(data=>{
-        console.log(data)
-     })
+    //  pddGoods({data:{
+    //      subject_id:5571,
+    //      page:1,
+    //      size:10
+    //  }}).then(data=>{
+    //     console.log(data)
+    //  })
 
     },
 }
 
 </script>
 <style scoped>
-    
+    @import "../assets/css/goodsStyle.css";
 </style>
