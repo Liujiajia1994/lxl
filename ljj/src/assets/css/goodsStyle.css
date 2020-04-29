@@ -56,19 +56,19 @@ button{
 .firstStyle .header{
     display: flex;
     align-items: center;
-    height: 4.467rem;
-    padding-left: 1.6rem;
-    border-top-right-radius: 1.667rem;
-    border-top-left-radius: 1.667rem;
+    height: 112px;
+    padding-left: 30px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     background-color: #F5F5F5;
 }
 .firstStyle .header span{
-    font-size: 2rem;
+    font-size: 48px;
 }
 .firstStyle .header img{
-    width: 1.667rem;
-    height: 1.667rem;
-    margin-left: 0.333rem;
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
 }
 .firstStyle .banner{
     position: relative;
@@ -81,57 +81,57 @@ button{
 }
 .firstStyle .content{
     /* width: 100%; */
-    margin-left: 1.6rem;
+    margin-left: 30px;
 }
-.firstStyle .banner div{
+.firstStyle .shop{
     position: absolute;
     bottom: 0;
     right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 13.8rem;
-    height: 2.533rem;
+    width: 280px;
+    height: 70px;
     color: white;
-    font-size: 1.8rem;
+    font-size: 36px;
     background-color: rgba(0,0,0,.5);        
 }
 .firstStyle .title{
-    margin-top: 1.6rem;
-    font-size: 2rem;
+    margin-top: 32px;
+    font-size: 48px;
 }
 .firstStyle .productStatus{
-    font-size: 1.6rem;
+    font-size: 40px;
 }
 .firstStyle .productStatus span{
-    font-size: 1.6rem;
+    font-size: 40px;
 }
 .firstStyle .productPrice{
-    font-size: 1.467rem;
+    font-size: 40px;
 }
 .firstStyle .productPrice img{
-    width: 5.667rem;
-    height: 2rem;
-    margin-right: 0.667rem;
+    width: 130px;
+    height: 50px;
+    margin-right: 2.7px;
 }
 .firstStyle .productPrice span{
-    margin-left: 0.333rem;
-    font-size: 2.4rem;
+    margin-left: 10px;
+    font-size: 60px;
 }
 .firstStyle .footer{
     display: flex;
     align-items: center;
-    margin-left: 1.333rem;
+    margin-left: 30px;
     list-style: none;      
 }
 .firstStyle .footer button{
-    width: 11rem;
-    height: 5rem;
-    font-size: 1.8rem;
-    border-radius: 3.333rem;
+    width: 260px;
+    height: 120px;
+    font-size: 40px;
+    border-radius: 100px;
 }
 .firstStyle .btn-buy{
-    margin-right: 0.667rem;
+    margin-right: 20px;
 }
 
 /* 第二张图布局 */
@@ -156,18 +156,18 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5.333rem;
-    height: 2rem;
-    margin-right: 0.8rem;
-    margin-top: 0.8rem;
-    border-radius: 1.333rem;
+    width: 150px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
     color: white;
-    font-size: 0.8rem;
+    font-size: 24px;
     background-color: rgba(0,0,0,.6);
 }
 .secondStyle .shop img{
-    width: 1.667rem;
-    height: 1.667rem;
+    width: 50px;
+    height: 50px;
 }
 .secondStyle .right{
     position: relative;
@@ -176,10 +176,10 @@ button{
     height: 56vw;
 }
 .secondStyle .header{
-    padding-bottom: 0.3rem;
-    margin-left: 0.3rem;
+    padding-bottom: 9px;
+    margin-left: 9px;
     text-align: center;
-    border-bottom:1px dashed #F0F0F0;
+    border-bottom: 2px dashed #F0F0F0;
 }
 .secondStyle .header div{
     height: 50%;
@@ -188,7 +188,7 @@ button{
     display: flex; 
     align-items: center; 
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 36px;
     font-weight: bold; 
 }
 .secondStyle .summary{
@@ -196,67 +196,67 @@ button{
     justify-content: center;
     align-items: center;
     color: #9D9D9D;
-    font-size: 0.8rem;
+    font-size: 24px;
 }
 .secondStyle .productPrice{
-    font-size: 0.8rem;
+    font-size: 24px;
 }
 .secondStyle .productPrice img{
-    width: 3.3rem;
-    height: 1.2rem;
-    margin-right: 0.333rem;
+    width: 100px;
+    height: 36px;
+    margin-right: 10px;
 }
 .secondStyle .productPrice span{
-    margin-left: 0.333rem;
-    font-size: 1.3rem;
+    margin-left: 10px;
+    font-size: 39px;
 }
 .secondStyle .main{
-    margin-left: 0.3rem;
+    margin-left: 9px;
 }
 .productMade{
-    margin-top: 0.533rem;
-    font-size: 0.9rem;
+    margin-top: 16px;
+    font-size: 27px;
     font-weight: bold;
 }
 .secondStyle .productTitle{
     overflow: hidden; 
     white-space:nowrap;
     text-overflow:ellipsis;
-    font-size: 0.8rem;
+    font-size: 24px;
 }
 .secondStyle .productStatus{
-    font-size: 0.8rem;
+    font-size: 24px;
 }
 .secondStyle .productStatus span{
-    font-size: 0.8rem; 
+    font-size: 24px; 
 }
 .secondStyle .footer{
     position: absolute;
     bottom: 0;
     /* width: 100%; */
-    margin-left: 0.3rem;
+    margin-left: 9px;
 }
 .secondStyle .tips{
-    font-size: 0.6rem;
+    font-size: 18px;
     color: #9D9D9D;
 }
 .secondStyle .btn{
-    margin-top: 0.2rem;
+    margin-top: 6px;
     display: flex;
 }
 .secondStyle .btn button{
-    width: 5rem;
-    height: 2rem;
-    border: 0.1rem solid #EA4C33;
+    width: 150px;
+    height: 60px;
+    border: 3px solid #EA4C33;
 }
 .secondStyle .btn img{
     display: flex;
     align-items: center;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 15px;
+    height: 15px;
 }
 .secondStyle .btn span{
-    font-size: 0.6rem;
+    font-size: 18px;
     white-space:nowrap;
     overflow:hidden;
 }
@@ -284,17 +284,18 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5.5rem;
-    height: 2rem;
-    margin-right: 0.667rem;
-    margin-top: 0.667rem;
-    border-radius: 1.333rem;
+    width: 165px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
     color: white;
+    font-size: 30px;
     background-color: rgba(0,0,0,.7);    
 }
 .thirdStyle .shop img{
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 54px;
+    height: 54px;
 }
 .thirdStyle .right{
     position: relative;
@@ -303,59 +304,60 @@ button{
     height: 45vw;
 }
 .thirdStyle .header{
-    margin-left: 0.6rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px dashed #F0F0F0;
+    margin-left: 18px;
+    padding-bottom: 15px;
+    border-bottom: 2px dashed #F0F0F0;
 }
 .thirdStyle .productTitle{
-    margin-top: 0.3rem;
+    margin-top: 9px;
+    font-size: 30px;
 }
 .thirdStyle .productStatus{
-    font-size: 0.8rem;
+    font-size: 9px;
 }
 .thirdStyle .productStatus span{
-    font-size: 0.8rem;
+    font-size: 9px;
 }
 .thirdStyle .productPrice{
-    font-size: 0.8rem;
+    font-size: 9px;
 }
 .thirdStyle .productPrice img{
-    width: 2.6rem;
-    height: 1.2rem;
-    margin-right: 0.33rem;
-    margin-top: 0.33rem;
-    margin-bottom: 0.33rem;
+    width: 78px;
+    height: 36px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .thirdStyle .productPrice span{ 
-    margin-left: 0.33rem;
-    font-size: 1.2rem;
+    margin-left: 10px;
+    font-size: 36px;
 }
 .thirdStyle .main{
-    margin-top: 0.3rem;
-    margin-left: 0.6rem;
+    margin-top: 9px;
+    margin-left: 18px;
     color: #9D9D9D; 
-    font-size: 0.85rem;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    display:-webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:2;
+    font-size: 25.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 .thirdStyle .footer{
     position: absolute;
-    bottom: 0.3rem;
+    bottom: 9px;
     display: flex;
-    font-size: 1rem;
-    margin-left: 0.6rem;
+    font-size: 30px;
+    margin-left: 18px;
 }
 .thirdStyle .footer button{
-    width: 5.2rem;
-    height: 2rem;
-    font-size: 0.8rem;
-    border-radius: 1.667rem;
+    width: 160px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 50px;
 }
 .thirdStyle .btn-buy{
-    margin-right: 0.6rem;
+    margin-right: 18px;
 }
 .thirdStyle .footer span{
     white-space:nowrap;
@@ -365,59 +367,59 @@ button{
 .forthStyle{
     width: 100%;
     height: 182vw;
-    margin-top: 1.33rem;
+    margin-top: 40px;
     background-color: #EA4433;
-    border-radius: 0.667rem;
+    border-radius: 20px;
 }
 .forthStyle .header{
     display: flex;
     align-items: center;
-    padding-top: 1.333rem;
-    margin-left: 1.333rem;
-    margin-right: 1.333rem;
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     color: white;
-    font-size: 2.8rem;
+    font-size: 84px;
     font-weight: bold;
 }
 .forthStyle .header img{
-    width: 3.4rem;
-    height: 3.4rem;
+    width: 100px;
+    height: 100px;
 }
 .forthStyle .main{
-    margin: 0.53rem 1.33rem 1.86rem 1.33rem;
+    margin: 16px 40px 56px 40px;
     color: white;
-    font-size: 1.85rem;
+    font-size: 54px;
 }
 .forthStyle .footer{
-    margin-left: 1.33rem;
-    margin-right: 1.33rem;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .forthStyle .footer ul li {
-    width: 10.8rem;
-    height: 10.8rem;
-    margin-bottom: 3rem;
+    width: 324px;
+    height: 324px;
+    margin-bottom: 90px
 }
 .productBanner{
-    width: 10.8rem;
-    height: 10.8rem;
+    width: 324px;
+    height: 324px;
 }
 .productBanner img{
     height: 100%;
     width: 100%;
-    border-top-left-radius: 0.53rem;
-    border-top-right-radius: 0.53rem;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 .forthStyle .productTitle{
     bottom: 0;
     display: flex;
     align-items: center;
-    height: 2.53rem;
-    font-size: 1rem;
+    height: 76px;
+    font-size: 30px;
     background-color: #F8F8F8;
-    border-bottom-left-radius: 0.53rem;
-    border-bottom-right-radius: 0.53rem;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 .forthStyle .productTitle span{
-    font-size: 1.5rem;
-    margin-left: 0.6rem;
+    font-size: 45px;
+    margin-left: 18px;
 }

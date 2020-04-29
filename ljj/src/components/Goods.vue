@@ -149,31 +149,12 @@
 </template>
 
 <script>
-// import {
-//  login,
-//  pddGoods
-// } from "@/api/api.js";
 export default {
     name: 'goods',
     data () {
         return {
 
         }
-    },
-    created() {
-       
-    //  login().then(data=>{
-    //     console.log(data)
-    //  })
-     //subject_id=5571&page=1&size=10
-    //  pddGoods({data:{
-    //      subject_id:5571,
-    //      page:1,
-    //      size:10
-    //  }}).then(data=>{
-    //     console.log(data)
-    //  })
-
     },
 }
 
